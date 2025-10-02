@@ -1,59 +1,125 @@
-# Introduction to GitHub
+# ML Plant Image Classifier
 
-<!-- ![](https://github.com/shxynh/skills-introduction-to-githhub/actions/workflows/0-start-exercise.yml/badge.svg) -->
-![](https://github.com/shxynh/skills-introduction-to-githhub/actions/workflows/1-create-a-branch.yml/badge.svg)
-![](https://github.com/shxynh/skills-introduction-to-githhub/actions/workflows/2-commit-a-file.yml/badge.svg)
-![](https://github.com/shxynh/skills-introduction-to-githhub/actions/workflows/3-open-a-pull-request.yml/badge.svg)
-![](https://github.com/shxynh/skills-introduction-to-githhub/actions/workflows/4-merge-your-pull-request.yml/badge.svg)
+A machine learning-powered web application that identifies plants from uploaded images using TensorFlow.js and MobileNet.
 
-_Get started using GitHub in less than an hour._
+## Features
 
-## Welcome
+- **AI-Powered Recognition** - Utilizes TensorFlow.js with MobileNet for accurate plant identification
+- **Real-time Analysis** - Instant plant classification with confidence scores
+- **Dark Mode Support** - Toggle between light and dark themes with persistent preferences
+- **Responsive Design** - Optimized for desktop and mobile devices
+- **Progressive Loading** - Model preloading for faster subsequent predictions
+- **Offline Capable** - Works without internet after initial model download
 
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.
+## Tech Stack
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This exercise is a great introduction for your first day on GitHub.
-- **How long**: This exercise takes less than one hour to complete.
+- **Frontend**: React 19.1.1, Vite 7.1.7
+- **ML/AI**: TensorFlow.js 4.22.0, MobileNet 2.1.1
+- **Styling**: Tailwind CSS 4.1.14
+- **Build Tool**: Vite with ESLint 9.36.0
+- **Language**: JavaScript (ES6+)
 
-In this exercise, you will:
+## Browser Compatibility
 
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
+- Chrome/Chromium 88+
+- Firefox 85+
+- Safari 14+
+- Edge 88+
 
-### How to start this exercise
+**Note**: WebGL support is required for optimal performance.
 
-1. Right-click **Copy Exercise** and open the link in a new tab.
+## Getting Started
 
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
-   </a>
+### Prerequisites
 
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.chttps://github.com/shxynh/skills-introduction-to-githhub/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
+- Node.js (v18.0.0 or higher recommended)
+- npm (v8+) or yarn (v1.22+)
+- Modern web browser with WebGL support
+- Minimum 2GB RAM for model loading
 
-3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-   - You will likely need to refresh the page.
+### Installation
 
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
+```bash
+# Clone the repository
+git clone https://github.com/shahinakt/ML_plant_image_classifier.git
 
-   <a id="start-exercise" href="https://github.com/shahinakt/ML_plant_image_classifier/issues/1" href="https://github.com/shxynh/skills-introduction-to-githhub/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
-   </a>
+# Navigate to project directory
+cd ML_plant_image_classifier
 
-> [!IMPORTANT]
-> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+**Note**: The first run may take longer as TensorFlow.js models are downloaded and cached.
+
+### Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## Usage
+
+1. Upload an image of a plant using the image picker
+2. Wait for the AI model to analyze the image
+3. View the identification results with confidence scores
+4. Toggle dark mode for preferred viewing experience
+
+## Scripts
+
+- `npm run dev` - Start development server (usually runs on http://localhost:5173)
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint code analysis
+- `npm run preview` - Preview production build locally
+
+## Project Structure
+
+```
+src/
+├── components/          # React components
+│   ├── DarkModeToggle.jsx
+│   ├── Header.jsx
+│   ├── ImagePicker.jsx
+│   └── ResultCard.jsx
+├── data/               # Plant classification data
+├── utils/              # Utility functions and ML model
+└── assets/             # Plant images and static assets
+```
+
+## Model Information
+
+- **Base Model**: MobileNet (pre-trained on ImageNet)
+- **Classification**: Custom plant species identification
+- **Input Size**: 224x224 pixels
+- **Model Size**: ~16MB (downloads on first use)
+- **Accuracy**: Varies by plant type and image quality
+
+## Known Limitations
+
+- Requires good lighting and clear plant images for best results
+- Performance depends on device capabilities and internet speed
+- Model accuracy may vary for rare or uncommon plant species
+- Large model size may cause slow initial loading on slower connections
+
+## Performance Tips
+
+- Use high-quality, well-lit images
+- Ensure the plant is the main subject in the image
+- Avoid blurry or heavily shadowed photos
+- Close the app completely to free up memory when not in use
+
+## Contributing
+
+This is a private project. For questions or suggestions, please contact the developer.
+
+## License
+
+This project is private and not licensed for public use.
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+Built by [Shahina Sareen](https://www.shahinasareen.tech)

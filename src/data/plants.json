@@ -1,0 +1,866 @@
+{
+  "neem": {
+    "common_name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "uses": "Traditional medicinal uses (antibacterial, antifungal).",
+    "caution": "Consult a professional; internal use not recommended without guidance.",
+    "short": "Tree with pinnate leaves, common in tropical regions.",
+    "image": "/assets/neem.jpg"
+  },
+  "rose": {
+    "common_name": "Rose",
+    "scientific_name": "Rosa",
+    "uses": "Ornamental; petals used in perfumery and teas.",
+    "caution": "Safe; some people may have allergies.",
+    "short": "Shrub with thorny stems and fragrant flowers.",
+    "image": "/assets/rose.jpg"
+  },
+  "aloe_vera": {
+    "common_name": "Aloe Vera",
+    "scientific_name": "Aloe barbadensis miller",
+    "uses": "Soothing burns, cuts, and skin irritation. Used in cosmetics.",
+    "caution": "Generally safe for topical use; avoid ingesting latex.",
+    "short": "Succulent with thick, fleshy leaves containing healing gel.",
+    "image": "/assets/aloe_vera.jpg"
+  },
+  "lavender": {
+    "common_name": "Lavender",
+    "scientific_name": "Lavandula angustifolia",
+    "uses": "Aromatherapy, relaxation, insect repellent, culinary herb.",
+    "caution": "Generally safe; may cause drowsiness in large amounts.",
+    "short": "Fragrant herb with purple flower spikes and silvery leaves.",
+    "image": "/assets/lavender.jpg"
+  },
+  "eucalyptus": {
+    "common_name": "Eucalyptus",
+    "scientific_name": "Eucalyptus globulus",
+    "uses": "Essential oils for respiratory relief, antiseptic properties.",
+    "caution": "Toxic if ingested; use only as directed.",
+    "short": "Fast-growing tree with aromatic, oval-shaped leaves.",
+    "image": "/assets/eucalyptus.jpg"
+  },
+  "basil": {
+    "common_name": "Sweet Basil",
+    "scientific_name": "Ocimum basilicum",
+    "uses": "Culinary herb, traditional medicine, insect repellent.",
+    "caution": "Generally safe; avoid large medicinal doses during pregnancy.",
+    "short": "Aromatic herb with green leaves, popular in cooking.",
+    "image": "/assets/basil.jpg"
+  },
+  "mint": {
+    "common_name": "Peppermint",
+    "scientific_name": "Mentha × piperita",
+    "uses": "Digestive aid, tea, culinary flavoring, aromatherapy.",
+    "caution": "Generally safe; may worsen acid reflux in some people.",
+    "short": "Perennial herb with serrated leaves and cooling properties.",
+    "image": "/assets/mint.jpg"
+  },
+  "rosemary": {
+    "common_name": "Rosemary",
+    "scientific_name": "Rosmarinus officinalis",
+    "uses": "Culinary herb, memory enhancement, hair care, antioxidant.",
+    "caution": "Safe in culinary amounts; avoid large doses if pregnant.",
+    "short": "Evergreen shrub with needle-like leaves and blue flowers.",
+    "image": "/assets/rosemary.jpg"
+  },
+  "turmeric": {
+    "common_name": "Turmeric",
+    "scientific_name": "Curcuma longa",
+    "uses": "Anti-inflammatory, culinary spice, traditional medicine.",
+    "caution": "May interact with blood thinners; avoid large doses before surgery.",
+    "short": "Rhizomatous herb with orange-colored roots and yellow flowers.",
+    "image": "/assets/turmeric.jpg"
+  },
+  "ginger": {
+    "common_name": "Ginger",
+    "scientific_name": "Zingiber officinale",
+    "uses": "Digestive aid, nausea relief, culinary spice, anti-inflammatory.",
+    "caution": "May interact with blood thinners; limit if taking medications.",
+    "short": "Tropical plant with thick, knobby rhizomes and lance-shaped leaves.",
+    "image": "/assets/ginger.jpg"
+  },
+  "garlic": {
+    "common_name": "Garlic",
+    "scientific_name": "Allium sativum",
+    "uses": "Culinary ingredient, cardiovascular health, antimicrobial.",
+    "caution": "May increase bleeding risk; avoid before surgery.",
+    "short": "Bulbous plant with flat leaves and strong pungent odor.",
+    "image": "/assets/garlic.jpg"
+  },
+  "onion": {
+    "common_name": "Onion",
+    "scientific_name": "Allium cepa",
+    "uses": "Culinary ingredient, antimicrobial, traditional cold remedy.",
+    "caution": "Generally safe; may cause digestive upset in sensitive individuals.",
+    "short": "Bulbous vegetable with layered structure and pungent flavor.",
+    "image": "/assets/onion.jpg"
+  },
+  "lemon": {
+    "common_name": "Lemon",
+    "scientific_name": "Citrus limon",
+    "uses": "Vitamin C source, culinary use, cleaning agent, aromatherapy.",
+    "caution": "May increase photosensitivity; avoid excessive consumption.",
+    "short": "Citrus tree with oval leaves and yellow acidic fruits.",
+    "image": "/assets/lemon.jpg"
+  },
+  "orange": {
+    "common_name": "Sweet Orange",
+    "scientific_name": "Citrus sinensis",
+    "uses": "Vitamin C source, culinary use, essential oils, juice.",
+    "caution": "Generally safe; may interact with certain medications.",
+    "short": "Evergreen tree with glossy leaves and round orange fruits.",
+    "image": "/assets/orange.jpg"
+  },
+  "mango": {
+    "common_name": "Mango",
+    "scientific_name": "Mangifera indica",
+    "uses": "Nutritious fruit, traditional medicine, antioxidant source.",
+    "caution": "May cause allergic reactions in sensitive individuals.",
+    "short": "Tropical tree with large leaves and sweet, fleshy fruits.",
+    "image": "/assets/mango.jpg"
+  },
+  "banana": {
+    "common_name": "Banana",
+    "scientific_name": "Musa acuminata",
+    "uses": "Nutritious fruit, potassium source, energy boost.",
+    "caution": "Generally safe; may worsen kidney problems if consumed excessively.",
+    "short": "Large herb with broad leaves and curved yellow fruits.",
+    "image": "/assets/banana.jpg"
+  },
+  "apple": {
+    "common_name": "Apple",
+    "scientific_name": "Malus domestica",
+    "uses": "Nutritious fruit, fiber source, antioxidants, culinary use.",
+    "caution": "Seeds contain cyanide compounds; avoid eating in large quantities.",
+    "short": "Deciduous tree with oval leaves and round fruits.",
+    "image": "/assets/apple.jpg"
+  },
+  "tomato": {
+    "common_name": "Tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "uses": "Culinary vegetable, lycopene source, antioxidant properties.",
+    "caution": "Green parts contain solanine; avoid eating unripe fruits.",
+    "short": "Vine plant with compound leaves and red fleshy fruits.",
+    "image": "/assets/tomato.jpg"
+  },
+  "potato": {
+    "common_name": "Potato",
+    "scientific_name": "Solanum tuberosum",
+    "uses": "Staple food crop, carbohydrate source, vitamin C.",
+    "caution": "Green potatoes contain solanine; avoid eating sprouted tubers.",
+    "short": "Herbaceous plant with underground tubers and white flowers.",
+    "image": "/assets/potato.jpg"
+  },
+  "carrot": {
+    "common_name": "Carrot",
+    "scientific_name": "Daucus carota",
+    "uses": "Vitamin A source, culinary vegetable, eye health support.",
+    "caution": "Generally safe; excessive consumption may cause orange skin tint.",
+    "short": "Root vegetable with feathery leaves and orange taproot.",
+    "image": "/assets/carrot.jpg"
+  },
+  "spinach": {
+    "common_name": "Spinach",
+    "scientific_name": "Spinacia oleracea",
+    "uses": "Leafy green vegetable, iron source, folate, vitamins.",
+    "caution": "High in oxalates; limit if prone to kidney stones.",
+    "short": "Annual plant with dark green, arrow-shaped leaves.",
+    "image": "/assets/spinach.jpg"
+  },
+  "cabbage": {
+    "common_name": "Cabbage",
+    "scientific_name": "Brassica oleracea",
+    "uses": "Culinary vegetable, vitamin C source, fermented foods.",
+    "caution": "May interfere with thyroid function if consumed excessively.",
+    "short": "Biennial plant with large, round heads of tightly packed leaves.",
+    "image": "/assets/cabbage.jpg"
+  },
+  "broccoli": {
+    "common_name": "Broccoli",
+    "scientific_name": "Brassica oleracea var. italica",
+    "uses": "Nutritious vegetable, vitamin C and K source, antioxidants.",
+    "caution": "May cause gas in sensitive individuals; generally safe.",
+    "short": "Plant with thick stalk and large flowering head of green buds.",
+    "image": "/assets/broccoli.jpg"
+  },
+  "cauliflower": {
+    "common_name": "Cauliflower",
+    "scientific_name": "Brassica oleracea var. botrytis",
+    "uses": "Low-carb vegetable substitute, vitamin C source, fiber.",
+    "caution": "Generally safe; may cause digestive upset in some people.",
+    "short": "Plant with large, white, compact flowering head.",
+    "image": "/assets/cauliflower.jpg"
+  },
+  "lettuce": {
+    "common_name": "Lettuce",
+    "scientific_name": "Lactuca sativa",
+    "uses": "Salad green, low-calorie food, hydration source.",
+    "caution": "Generally safe; wash thoroughly to avoid contamination.",
+    "short": "Annual plant with broad, tender leaves in rosette formation.",
+    "image": "/assets/lettuce.jpg"
+  },
+  "cucumber": {
+    "common_name": "Cucumber",
+    "scientific_name": "Cucumis sativus",
+    "uses": "Hydrating food, skin care, low-calorie snack.",
+    "caution": "Generally safe; may cause bitter taste if overripe.",
+    "short": "Climbing vine with large leaves and cylindrical green fruits.",
+    "image": "/assets/cucumber.jpg"
+  },
+  "pumpkin": {
+    "common_name": "Pumpkin",
+    "scientific_name": "Cucurbita pepo",
+    "uses": "Culinary use, vitamin A source, seeds for nutrition.",
+    "caution": "Generally safe; seeds may interact with certain medications.",
+    "short": "Trailing vine with large leaves and round orange fruits.",
+    "image": "/assets/pumpkin.jpg"
+  },
+  "sunflower": {
+    "common_name": "Sunflower",
+    "scientific_name": "Helianthus annuus",
+    "uses": "Ornamental, oil production, edible seeds, bird food.",
+    "caution": "Generally safe; some people may be allergic to seeds.",
+    "short": "Tall annual plant with large yellow flower heads.",
+    "image": "/assets/sunflower.jpg"
+  },
+  "marigold": {
+    "common_name": "Marigold",
+    "scientific_name": "Tagetes erecta",
+    "uses": "Ornamental, companion planting, traditional medicine.",
+    "caution": "Generally safe; may cause skin irritation in sensitive individuals.",
+    "short": "Annual flower with bright orange or yellow blooms.",
+    "image": "/assets/marigold.jpg"
+  },
+  "jasmine": {
+    "common_name": "Jasmine",
+    "scientific_name": "Jasminum officinale",
+    "uses": "Ornamental, perfumery, tea flavoring, aromatherapy.",
+    "caution": "Generally safe; avoid ingesting large quantities.",
+    "short": "Climbing shrub with small, fragrant white flowers.",
+    "image": "/assets/jasmine.jpg"
+  },
+  "hibiscus": {
+    "common_name": "Hibiscus",
+    "scientific_name": "Hibiscus rosa-sinensis",
+    "uses": "Ornamental, tea preparation, traditional medicine.",
+    "caution": "May lower blood pressure; consult doctor if on medication.",
+    "short": "Shrub with large, colorful trumpet-shaped flowers.",
+    "image": "/assets/hibiscus.jpg"
+  },
+  "bamboo": {
+    "common_name": "Bamboo",
+    "scientific_name": "Bambuseae",
+    "uses": "Construction material, food (shoots), ornamental, erosion control.",
+    "caution": "Some species may be invasive; shoots need proper preparation.",
+    "short": "Fast-growing grass with hollow, segmented stems.",
+    "image": "/assets/bamboo.jpg"
+  },
+  "oak": {
+    "common_name": "Oak Tree",
+    "scientific_name": "Quercus",
+    "uses": "Timber, acorns for wildlife, tannins, landscaping.",
+    "caution": "Acorns contain tannins; require processing before consumption.",
+    "short": "Large deciduous tree with lobed leaves and acorns.",
+    "image": "/assets/oak.jpg"
+  },
+  "pine": {
+    "common_name": "Pine Tree",
+    "scientific_name": "Pinus",
+    "uses": "Timber, resin, pine nuts, essential oils, Christmas trees.",
+    "caution": "Some species' needles may be toxic; avoid during pregnancy.",
+    "short": "Evergreen conifer with needle-like leaves and cones.",
+    "image": "/assets/pine.jpg"
+  },
+  "maple": {
+    "common_name": "Maple Tree",
+    "scientific_name": "Acer",
+    "uses": "Maple syrup, timber, ornamental, fall foliage.",
+    "caution": "Generally safe; some species may cause skin irritation.",
+    "short": "Deciduous tree with palmate leaves and winged seeds.",
+    "image": "/assets/maple.jpg"
+  },
+  "willow": {
+    "common_name": "Willow Tree",
+    "scientific_name": "Salix",
+    "uses": "Traditional pain relief, basket weaving, erosion control.",
+    "caution": "Contains salicin; avoid if allergic to aspirin.",
+    "short": "Tree with long, narrow leaves and drooping branches.",
+    "image": "/assets/willow.jpg"
+  },
+  "birch": {
+    "common_name": "Birch Tree",
+    "scientific_name": "Betula",
+    "uses": "Timber, birch beer, traditional medicine, paper making.",
+    "caution": "May cause allergic reactions in sensitive individuals.",
+    "short": "Deciduous tree with white bark and small triangular leaves.",
+    "image": "/assets/birch.jpg"
+  },
+  "cedar": {
+    "common_name": "Cedar Tree",
+    "scientific_name": "Cedrus",
+    "uses": "Timber, essential oils, insect repellent, construction.",
+    "caution": "Essential oil may cause skin irritation; avoid during pregnancy.",
+    "short": "Evergreen conifer with aromatic wood and needle clusters.",
+    "image": "/assets/cedar.jpg"
+  },
+  "cherry": {
+    "common_name": "Cherry Tree",
+    "scientific_name": "Prunus",
+    "uses": "Edible fruits, ornamental flowers, timber, traditional medicine.",
+    "caution": "Leaves and bark contain cyanide; avoid in large quantities.",
+    "short": "Deciduous tree with serrated leaves and stone fruits.",
+    "image": "/assets/cherry.jpg"
+  },
+  "peach": {
+    "common_name": "Peach Tree",
+    "scientific_name": "Prunus persica",
+    "uses": "Edible fruits, ornamental, traditional medicine, cosmetics.",
+    "caution": "Pit contains cyanide; leaves may cause skin irritation.",
+    "short": "Small tree with lance-shaped leaves and fuzzy fruits.",
+    "image": "/assets/peach.jpg"
+  },
+  "pear": {
+    "common_name": "Pear Tree",
+    "scientific_name": "Pyrus",
+    "uses": "Edible fruits, timber, ornamental, traditional medicine.",
+    "caution": "Seeds contain small amounts of cyanide; generally safe.",
+    "short": "Deciduous tree with oval leaves and bell-shaped fruits.",
+    "image": "/assets/pear.jpg"
+  },
+  "avocado": {
+    "common_name": "Avocado Tree",
+    "scientific_name": "Persea americana",
+    "uses": "Nutritious fruits, healthy fats, cosmetics, culinary oil.",
+    "caution": "Toxic to pets; high calorie content for humans.",
+    "short": "Evergreen tree with large oval leaves and green fruits.",
+    "image": "/assets/avocado.jpg"
+  },
+  "coconut": {
+    "common_name": "Coconut Palm",
+    "scientific_name": "Cocos nucifera",
+    "uses": "Coconut water, oil, fiber, food, construction material.",
+    "caution": "Generally safe; may cause allergic reactions in some people.",
+    "short": "Tall palm tree with large pinnate leaves and coconuts.",
+    "image": "/assets/coconut.jpg"
+  },
+  "date": {
+    "common_name": "Date Palm",
+    "scientific_name": "Phoenix dactylifera",
+    "uses": "Sweet fruits, syrup, traditional medicine, landscaping.",
+    "caution": "High sugar content; consume in moderation if diabetic.",
+    "short": "Palm tree with pinnate leaves and clusters of dates.",
+    "image": "/assets/date.jpg"
+  },
+  "fig": {
+    "common_name": "Fig Tree",
+    "scientific_name": "Ficus carica",
+    "uses": "Edible fruits, traditional medicine, ornamental, fiber source.",
+    "caution": "Latex may cause skin irritation; generally safe to eat.",
+    "short": "Deciduous tree with large lobed leaves and soft fruits.",
+    "image": "/assets/fig.jpg"
+  },
+  "grape": {
+    "common_name": "Grape Vine",
+    "scientific_name": "Vitis vinifera",
+    "uses": "Wine production, fresh fruit, raisins, antioxidants.",
+    "caution": "Generally safe; alcohol content in wine requires moderation.",
+    "short": "Climbing vine with lobed leaves and clustered fruits.",
+    "image": "/assets/grape.jpg"
+  },
+  "strawberry": {
+    "common_name": "Strawberry",
+    "scientific_name": "Fragaria × ananassa",
+    "uses": "Fresh fruit, jams, desserts, vitamin C source.",
+    "caution": "May cause allergic reactions; generally safe for most people.",
+    "short": "Low-growing plant with three-leaflet leaves and red berries.",
+    "image": "/assets/strawberry.jpg"
+  },
+  "blueberry": {
+    "common_name": "Blueberry",
+    "scientific_name": "Vaccinium corymbosum",
+    "uses": "Antioxidant-rich fruit, baking, jams, health supplements.",
+    "caution": "May interact with blood thinners; generally very safe.",
+    "short": "Shrub with oval leaves and small blue berries.",
+    "image": "/assets/blueberry.jpg"
+  },
+  "raspberry": {
+    "common_name": "Raspberry",
+    "scientific_name": "Rubus idaeus",
+    "uses": "Fresh fruit, jams, tea from leaves, antioxidants.",
+    "caution": "Leaves used medicinally should be consumed with caution.",
+    "short": "Cane plant with compound leaves and aggregate red fruits.",
+    "image": "/assets/raspberry.jpg"
+  },
+  "blackberry": {
+    "common_name": "Blackberry",
+    "scientific_name": "Rubus",
+    "uses": "Fresh fruit, jams, traditional medicine, antioxidants.",
+    "caution": "Thorns can cause injury; fruit is generally safe.",
+    "short": "Thorny cane with compound leaves and dark aggregate fruits.",
+    "image": "/assets/blackberry.jpg"
+  },
+  "watermelon": {
+    "common_name": "Watermelon",
+    "scientific_name": "Citrullus lanatus",
+    "uses": "Hydrating fruit, low calorie snack, seeds for nutrition.",
+    "caution": "Generally safe; may cause digestive upset if consumed excessively.",
+    "short": "Trailing vine with large striped fruits and high water content.",
+    "image": "/assets/watermelon.jpg"
+  },
+  "cantaloupe": {
+    "common_name": "Cantaloupe",
+    "scientific_name": "Cucumis melo",
+    "uses": "Nutritious fruit, vitamin A and C source, low calorie.",
+    "caution": "Wash thoroughly; may harbor bacteria on rind.",
+    "short": "Vine plant with netted orange fruits and sweet flesh.",
+    "image": "/assets/cantaloupe.jpg"
+  },
+  "pineapple": {
+    "common_name": "Pineapple",
+    "scientific_name": "Ananas comosus",
+    "uses": "Tropical fruit, digestive enzymes, anti-inflammatory.",
+    "caution": "May cause mouth irritation; avoid excessive consumption.",
+    "short": "Tropical plant with sword-like leaves and spiky fruit.",
+    "image": "/assets/pineapple.jpg"
+  },
+  "papaya": {
+    "common_name": "Papaya",
+    "scientific_name": "Carica papaya",
+    "uses": "Digestive fruit, enzyme source, traditional medicine.",
+    "caution": "Unripe fruit may be harmful during pregnancy.",
+    "short": "Tree with large palmate leaves and orange oval fruits.",
+    "image": "/assets/papaya.jpg"
+  },
+  "kiwi": {
+    "common_name": "Kiwi Fruit",
+    "scientific_name": "Actinidia deliciosa",
+    "uses": "Vitamin C rich fruit, digestive aid, antioxidants.",
+    "caution": "May cause allergic reactions in some individuals.",
+    "short": "Climbing vine with heart-shaped leaves and fuzzy brown fruits.",
+    "image": "/assets/kiwi.jpg"
+  },
+  "pomegranate": {
+    "common_name": "Pomegranate",
+    "scientific_name": "Punica granatum",
+    "uses": "Antioxidant-rich fruit, juice, traditional medicine.",
+    "caution": "May interact with certain medications; generally safe.",
+    "short": "Shrub with narrow leaves and red fruits with many seeds.",
+    "image": "/assets/pomegranate.jpg"
+  },
+  "lime": {
+    "common_name": "Lime",
+    "scientific_name": "Citrus aurantifolia",
+    "uses": "Culinary use, vitamin C, traditional medicine, beverages.",
+    "caution": "May increase photosensitivity; acidic nature may erode teeth.",
+    "short": "Small citrus tree with thorny branches and green fruits.",
+    "image": "/assets/lime.jpg"
+  },
+  "grapefruit": {
+    "common_name": "Grapefruit",
+    "scientific_name": "Citrus × paradisi",
+    "uses": "Vitamin C source, weight management, antioxidants.",
+    "caution": "Interacts with many medications; consult doctor if on medication.",
+    "short": "Citrus tree with large glossy leaves and large acidic fruits.",
+    "image": "/assets/grapefruit.jpg"
+  },
+  "chili": {
+    "common_name": "Chili Pepper",
+    "scientific_name": "Capsicum annuum",
+    "uses": "Culinary spice, pain relief, metabolism boost, preservation.",
+    "caution": "Can cause burning sensation; avoid touching eyes after handling.",
+    "short": "Annual plant with small leaves and hot, colorful fruits.",
+    "image": "/assets/chili.jpg"
+  },
+  "bell_pepper": {
+    "common_name": "Bell Pepper",
+    "scientific_name": "Capsicum annuum",
+    "uses": "Culinary vegetable, vitamin C source, antioxidants.",
+    "caution": "Generally safe; may cause digestive upset in sensitive individuals.",
+    "short": "Plant with large, mild, colorful fruits and no heat.",
+    "image": "/assets/bell_pepper.jpg"
+  },
+  "eggplant": {
+    "common_name": "Eggplant",
+    "scientific_name": "Solanum melongena",
+    "uses": "Culinary vegetable, fiber source, antioxidants.",
+    "caution": "Contains solanine; cook thoroughly before eating.",
+    "short": "Plant with large leaves and purple, oval fruits.",
+    "image": "/assets/eggplant.jpg"
+  },
+  "zucchini": {
+    "common_name": "Zucchini",
+    "scientific_name": "Cucurbita pepo",
+    "uses": "Low-calorie vegetable, pasta substitute, baking ingredient.",
+    "caution": "Generally safe; bitter taste may indicate toxic compounds.",
+    "short": "Vine plant with large leaves and elongated green fruits.",
+    "image": "/assets/zucchini.jpg"
+  },
+  "sweet_potato": {
+    "common_name": "Sweet Potato",
+    "scientific_name": "Ipomoea batatas",
+    "uses": "Nutritious root vegetable, vitamin A source, fiber.",
+    "caution": "Generally safe; may affect blood sugar levels.",
+    "short": "Vine with heart-shaped leaves and orange tuberous roots.",
+    "image": "/assets/sweet_potato.jpg"
+  },
+  "beetroot": {
+    "common_name": "Beetroot",
+    "scientific_name": "Beta vulgaris",
+    "uses": "Root vegetable, natural food coloring, nitrates for exercise.",
+    "caution": "May cause red urine; high in oxalates.",
+    "short": "Plant with large leaves and deep red, round root.",
+    "image": "/assets/beetroot.jpg"
+  },
+  "radish": {
+    "common_name": "Radish",
+    "scientific_name": "Raphanus sativus",
+    "uses": "Culinary vegetable, digestive aid, vitamin C source.",
+    "caution": "May cause gas; generally safe in normal amounts.",
+    "short": "Plant with lobed leaves and small, pungent root vegetable.",
+    "image": "/assets/radish.jpg"
+  },
+  "turnip": {
+    "common_name": "Turnip",
+    "scientific_name": "Brassica rapa",
+    "uses": "Root vegetable, greens for salads, traditional medicine.",
+    "caution": "May interfere with thyroid function if consumed excessively.",
+    "short": "Plant with rough leaves and white-purple root vegetable.",
+    "image": "/assets/turnip.jpg"
+  },
+  "parsnip": {
+    "common_name": "Parsnip",
+    "scientific_name": "Pastinaca sativa",
+    "uses": "Root vegetable, fiber source, potassium rich.",
+    "caution": "Sap may cause skin irritation; cook before eating.",
+    "short": "Plant with compound leaves and cream-colored taproot.",
+    "image": "/assets/parsnip.jpg"
+  },
+  "celery": {
+    "common_name": "Celery",
+    "scientific_name": "Apium graveolens",
+    "uses": "Low-calorie vegetable, potassium source, traditional medicine.",
+    "caution": "May cause allergic reactions; high sodium content.",
+    "short": "Plant with compound leaves and crisp, fibrous stalks.",
+    "image": "/assets/celery.jpg"
+  },
+  "asparagus": {
+    "common_name": "Asparagus",
+    "scientific_name": "Asparagus officinalis",
+    "uses": "Nutritious vegetable, folate source, diuretic properties.",
+    "caution": "May cause strong-smelling urine; generally safe.",
+    "short": "Perennial plant with feathery foliage and edible spears.",
+    "image": "/assets/asparagus.jpg"
+  },
+  "artichoke": {
+    "common_name": "Artichoke",
+    "scientific_name": "Cynara scolymus",
+    "uses": "Edible flower buds, liver support, antioxidants.",
+    "caution": "May cause allergic reactions in some individuals.",
+    "short": "Large plant with silvery leaves and edible flower heads.",
+    "image": "/assets/artichoke.jpg"
+  },
+  "corn": {
+    "common_name": "Corn",
+    "scientific_name": "Zea mays",
+    "uses": "Staple grain, animal feed, biofuel, food products.",
+    "caution": "May cause allergic reactions; high glycemic index.",
+    "short": "Tall grass with large leaves and kerneled ears.",
+    "image": "/assets/corn.jpg"
+  },
+  "wheat": {
+    "common_name": "Wheat",
+    "scientific_name": "Triticum aestivum",
+    "uses": "Staple grain for bread, pasta, flour production.",
+    "caution": "Contains gluten; avoid if celiac or gluten sensitive.",
+    "short": "Cereal grass with narrow leaves and grain-bearing heads.",
+    "image": "/assets/wheat.jpg"
+  },
+  "rice": {
+    "common_name": "Rice",
+    "scientific_name": "Oryza sativa",
+    "uses": "Staple grain, gluten-free food, rice products.",
+    "caution": "May contain arsenic; rinse before cooking.",
+    "short": "Semi-aquatic grass with narrow leaves and grain panicles.",
+    "image": "/assets/rice.jpg"
+  },
+  "barley": {
+    "common_name": "Barley",
+    "scientific_name": "Hordeum vulgare",
+    "uses": "Cereal grain, brewing, animal feed, soup ingredient.",
+    "caution": "Contains gluten; may cause allergic reactions.",
+    "short": "Cereal grass with long awns and dense grain heads.",
+    "image": "/assets/barley.jpg"
+  },
+  "oats": {
+    "common_name": "Oats",
+    "scientific_name": "Avena sativa",
+    "uses": "Breakfast cereal, cholesterol reduction, fiber source.",
+    "caution": "Generally safe; may be contaminated with gluten.",
+    "short": "Cereal grass with loose, open grain panicles.",
+    "image": "/assets/oats.jpg"
+  },
+  "quinoa": {
+    "common_name": "Quinoa",
+    "scientific_name": "Chenopodium quinoa",
+    "uses": "Protein-rich seed, gluten-free grain substitute, superfood.",
+    "caution": "Wash thoroughly to remove saponins; generally safe.",
+    "short": "Plant with broad leaves and dense clusters of small seeds.",
+    "image": "/assets/quinoa.jpg"
+  },
+  "soybean": {
+    "common_name": "Soybean",
+    "scientific_name": "Glycine max",
+    "uses": "Protein source, oil production, tofu, traditional foods.",
+    "caution": "May cause allergic reactions; hormone-like effects debated.",
+    "short": "Legume plant with trifoliate leaves and protein-rich pods.",
+    "image": "/assets/soybean.jpg"
+  },
+  "peas": {
+    "common_name": "Garden Peas",
+    "scientific_name": "Pisum sativum",
+    "uses": "Protein-rich vegetable, fiber source, nitrogen fixation.",
+    "caution": "Generally safe; high fiber may cause digestive upset.",
+    "short": "Climbing plant with compound leaves and edible pods.",
+    "image": "/assets/peas.jpg"
+  },
+  "beans": {
+    "common_name": "Common Bean",
+    "scientific_name": "Phaseolus vulgaris",
+    "uses": "Protein source, fiber, folate, various culinary uses.",
+    "caution": "Raw beans contain toxins; must be cooked thoroughly.",
+    "short": "Climbing plant with trifoliate leaves and edible pods.",
+    "image": "/assets/beans.jpg"
+  },
+  "lentils": {
+    "common_name": "Lentils",
+    "scientific_name": "Lens culinaris",
+    "uses": "Protein source, fiber, iron, quick-cooking legume.",
+    "caution": "May cause gas; generally safe and nutritious.",
+    "short": "Annual plant with small compound leaves and lens-shaped seeds.",
+    "image": "/assets/lentils.jpg"
+  },
+  "chickpeas": {
+    "common_name": "Chickpeas",
+    "scientific_name": "Cicer arietinum",
+    "uses": "Protein source, hummus ingredient, fiber, folate.",
+    "caution": "May cause digestive upset; generally safe when cooked.",
+    "short": "Plant with compound leaves and inflated pods containing round seeds.",
+    "image": "/assets/chickpeas.jpg"
+  },
+  "peanut": {
+    "common_name": "Peanut",
+    "scientific_name": "Arachis hypogaea",
+    "uses": "Protein source, oil production, butter, snack food.",
+    "caution": "Major allergen; can cause severe allergic reactions.",
+    "short": "Low plant with compound leaves and underground pods.",
+    "image": "/assets/peanut.jpg"
+  },
+  "sunflower_seeds": {
+    "common_name": "Sunflower Seeds",
+    "scientific_name": "Helianthus annuus",
+    "uses": "Healthy snack, oil source, vitamin E, protein.",
+    "caution": "High calorie; may cause allergic reactions in some people.",
+    "short": "Seeds from large yellow flower heads of tall annual plants.",
+    "image": "/assets/sunflower_seeds.jpg"
+  },
+  "almonds": {
+    "common_name": "Almonds",
+    "scientific_name": "Prunus dulcis",
+    "uses": "Healthy nuts, oil source, milk substitute, protein.",
+    "caution": "May cause allergic reactions; bitter almonds contain cyanide.",
+    "short": "Tree with lance-shaped leaves and hard-shelled nuts.",
+    "image": "/assets/almonds.jpg"
+  },
+  "walnuts": {
+    "common_name": "Walnuts",
+    "scientific_name": "Juglans regia",
+    "uses": "Omega-3 fatty acids, brain health, protein source.",
+    "caution": "May cause allergic reactions; high calorie content.",
+    "short": "Tree with compound leaves and hard-shelled brain-shaped nuts.",
+    "image": "/assets/walnuts.jpg"
+  },
+  "cashews": {
+    "common_name": "Cashews",
+    "scientific_name": "Anacardium occidentale",
+    "uses": "Protein source, healthy fats, dairy alternatives.",
+    "caution": "Raw cashews contain toxins; may cause allergic reactions.",
+    "short": "Tree with large leaves and kidney-shaped nuts.",
+    "image": "/assets/cashews.jpg"
+  },
+  "pistachios": {
+    "common_name": "Pistachios",
+    "scientific_name": "Pistacia vera",
+    "uses": "Healthy snack, protein source, antioxidants.",
+    "caution": "May cause allergic reactions; high calorie content.",
+    "short": "Small tree with compound leaves and green-purple nuts.",
+    "image": "/assets/pistachios.jpg"
+  },
+  "hazelnuts": {
+    "common_name": "Hazelnuts",
+    "scientific_name": "Corylus avellana",
+    "uses": "Culinary nuts, oil source, confectionery ingredient.",
+    "caution": "May cause allergic reactions; generally safe in moderation.",
+    "short": "Shrub with broad, serrated leaves and small round nuts.",
+    "image": "/assets/hazelnuts.jpg"
+  },
+  "pecans": {
+    "common_name": "Pecans",
+    "scientific_name": "Carya illinoinensis",
+    "uses": "Culinary nuts, oil source, baking ingredient.",
+    "caution": "May cause allergic reactions; high fat content.",
+    "short": "Large tree with compound leaves and oval nuts.",
+    "image": "/assets/pecans.jpg"
+  },
+  "macadamia": {
+    "common_name": "Macadamia Nuts",
+    "scientific_name": "Macadamia integrifolia",
+    "uses": "Premium nuts, oil source, cosmetic ingredient.",
+    "caution": "Very high calorie; toxic to dogs and cats.",
+    "short": "Evergreen tree with narrow leaves and round, hard nuts.",
+    "image": "/assets/macadamia.jpg"
+  },
+  "brazil_nuts": {
+    "common_name": "Brazil Nuts",
+    "scientific_name": "Bertholletia excelsa",
+    "uses": "Selenium source, protein, healthy fats.",
+    "caution": "Very high selenium; limit consumption to avoid toxicity.",
+    "short": "Large rainforest tree with large leaves and triangular nuts.",
+    "image": "/assets/brazil_nuts.jpg"
+  },
+  "coffee": {
+    "common_name": "Coffee Plant",
+    "scientific_name": "Coffea arabica",
+    "uses": "Beverage production, stimulant, antioxidants.",
+    "caution": "Caffeine content; avoid excessive consumption during pregnancy.",
+    "short": "Shrub with glossy leaves and red cherry-like fruits containing beans.",
+    "image": "/assets/coffee.jpg"
+  },
+  "tea": {
+    "common_name": "Tea Plant",
+    "scientific_name": "Camellia sinensis",
+    "uses": "Beverage production, antioxidants, traditional medicine.",
+    "caution": "Contains caffeine; may interact with certain medications.",
+    "short": "Evergreen shrub with serrated leaves and small white flowers.",
+    "image": "/assets/tea.jpg"
+  },
+  "cacao": {
+    "common_name": "Cacao Tree",
+    "scientific_name": "Theobroma cacao",
+    "uses": "Chocolate production, antioxidants, mood enhancement.",
+    "caution": "Contains caffeine and theobromine; toxic to pets.",
+    "short": "Tropical tree with large leaves and pods containing cocoa beans.",
+    "image": "/assets/cacao.jpg"
+  },
+  "vanilla": {
+    "common_name": "Vanilla Orchid",
+    "scientific_name": "Vanilla planifolia",
+    "uses": "Flavoring agent, aromatherapy, traditional medicine.",
+    "caution": "Generally safe; synthetic vanilla may cause reactions.",
+    "short": "Climbing orchid with thick leaves and aromatic seed pods.",
+    "image": "/assets/vanilla.jpg"
+  },
+  "cinnamon": {
+    "common_name": "Cinnamon Tree",
+    "scientific_name": "Cinnamomum verum",
+    "uses": "Culinary spice, blood sugar regulation, antimicrobial.",
+    "caution": "Large amounts may be toxic; avoid if on blood thinners.",
+    "short": "Evergreen tree with aromatic bark and oval leaves.",
+    "image": "/assets/cinnamon.jpg"
+  },
+  "cardamom": {
+    "common_name": "Cardamom",
+    "scientific_name": "Elettaria cardamomum",
+    "uses": "Culinary spice, digestive aid, breath freshener.",
+    "caution": "May interact with certain medications; generally safe.",
+    "short": "Perennial herb with large leaves and small aromatic pods.",
+    "image": "/assets/cardamom.jpg"
+  },
+  "cloves": {
+    "common_name": "Clove Tree",
+    "scientific_name": "Syzygium aromaticum",
+    "uses": "Culinary spice, dental pain relief, antimicrobial.",
+    "caution": "Essential oil may cause skin irritation; use sparingly.",
+    "short": "Evergreen tree with aromatic flower buds and oval leaves.",
+    "image": "/assets/cloves.jpg"
+  },
+  "nutmeg": {
+    "common_name": "Nutmeg Tree",
+    "scientific_name": "Myristica fragrans",
+    "uses": "Culinary spice, traditional medicine, aromatherapy.",
+    "caution": "Large amounts can be toxic; may cause hallucinations.",
+    "short": "Evergreen tree with glossy leaves and aromatic seeds.",
+    "image": "/assets/nutmeg.jpg"
+  },
+  "black_pepper": {
+    "common_name": "Black Pepper",
+    "scientific_name": "Piper nigrum",
+    "uses": "Culinary spice, digestive aid, nutrient absorption enhancer.",
+    "caution": "May increase absorption of medications; generally safe.",
+    "short": "Climbing vine with heart-shaped leaves and peppercorn clusters.",
+    "image": "/assets/black_pepper.jpg"
+  },
+  "oregano": {
+    "common_name": "Oregano",
+    "scientific_name": "Origanum vulgare",
+    "uses": "Culinary herb, antimicrobial, traditional medicine.",
+    "caution": "May interact with diabetes medications; generally safe.",
+    "short": "Perennial herb with small oval leaves and tiny white flowers.",
+    "image": "/assets/oregano.jpg"
+  },
+  "thyme": {
+    "common_name": "Thyme",
+    "scientific_name": "Thymus vulgaris",
+    "uses": "Culinary herb, antimicrobial, respiratory support.",
+    "caution": "May slow blood clotting; avoid before surgery.",
+    "short": "Low-growing herb with tiny leaves and small purple flowers.",
+    "image": "/assets/thyme.jpg"
+  },
+  "sage": {
+    "common_name": "Sage",
+    "scientific_name": "Salvia officinalis",
+    "uses": "Culinary herb, memory support, traditional medicine.",
+    "caution": "Avoid during pregnancy; limit long-term use.",
+    "short": "Perennial herb with gray-green leaves and purple flower spikes.",
+    "image": "/assets/sage.jpg"
+  },
+  "parsley": {
+    "common_name": "Parsley",
+    "scientific_name": "Petroselinum crispum",
+    "uses": "Culinary herb, vitamin K source, breath freshener.",
+    "caution": "Large amounts may be harmful during pregnancy.",
+    "short": "Biennial herb with bright green, divided leaves.",
+    "image": "/assets/parsley.jpg"
+  },
+  "cilantro": {
+    "common_name": "Cilantro",
+    "scientific_name": "Coriandrum sativum",
+    "uses": "Culinary herb, heavy metal detox, digestive aid.",
+    "caution": "Some people have genetic aversion; generally safe.",
+    "short": "Annual herb with delicate, lacy leaves and strong aroma.",
+    "image": "/assets/cilantro.jpg"
+  },
+  "dill": {
+    "common_name": "Dill",
+    "scientific_name": "Anethum graveolens",
+    "uses": "Culinary herb, pickling spice, digestive aid.",
+    "caution": "May increase photosensitivity; generally safe.",
+    "short": "Annual herb with feathery leaves and umbrella-like flower clusters.",
+    "image": "/assets/dill.jpg"
+  },
+  "fennel": {
+    "common_name": "Fennel",
+    "scientific_name": "Foeniculum vulgare",
+    "uses": "Culinary vegetable, digestive aid, traditional medicine.",
+    "caution": "May have estrogen-like effects; avoid if pregnant.",
+    "short": "Perennial herb with feathery leaves and swollen leaf bases.",
+    "image": "/assets/fennel.jpg"
+  },
+  "chives": {
+    "common_name": "Chives",
+    "scientific_name": "Allium schoenoprasum",
+    "uses": "Culinary herb, mild onion flavor, garnish.",
+    "caution": "Generally safe; may cause digestive upset in large amounts.",
+    "short": "Perennial herb with thin, tubular leaves and purple flowers.",
+    "image": "/assets/chives.jpg"
+  }
+}
