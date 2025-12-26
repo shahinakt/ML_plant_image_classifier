@@ -8,7 +8,7 @@ export default function Header({ isDarkMode, onToggleDarkMode }) {
           <div className="rounded-full bg-green-600 w-10 h-10 flex items-center justify-center text-white font-bold">🌿</div>
           <div>
             <h1 className="text-xl font-semibold">Plant ID</h1>
-            <p className="text-sm text-slate-500 dark:text-slate-400">Upload a photo — get common & scientific name</p>
+            <p className="text-sm text-gray-500 dark:text-gray-400">Upload a photo — get common & scientific name</p>
           </div>
         </div>
         <DarkModeToggle isDark={isDarkMode} onToggle={onToggleDarkMode} />
